@@ -1,6 +1,8 @@
 <template>
   <v-container class="py-6">
-    <div class="text-h5 font-weight-bold mb-2">Popular Boba Drinks</div>
+    <div class="section-title">
+        <span class="title-text">Boba Drinks</span>
+    </div>
     <v-carousel
       height="520"
       show-arrows="hover"
@@ -192,5 +194,17 @@ function openDrink(drink) {
 
 .dialog-img :deep(.v-img__img) {
   padding-top: 16px;      
+}
+
+.section-title {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.title-text {
+  font-size: 1.5rem; 
+  font-weight: 700;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #C96B8A; /* underline */
 }
 </style>
