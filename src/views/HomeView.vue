@@ -104,7 +104,7 @@
         <v-card-actions class="justify-end">
           <v-btn variant="text" @click="dialogOpen = false">Close</v-btn>
           <v-btn color="#c96b8a" variant="flat" @click="dialogOpen = false">
-            Choose This Drink
+            Favorite
           </v-btn>
         </v-card-actions>
       </v-card>
